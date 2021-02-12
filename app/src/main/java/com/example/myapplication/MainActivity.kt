@@ -1,34 +1,34 @@
 package com.example.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.view.TextureView
-import android.widget.*
+import android.widget.Button
+import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 
 // classes begin with uppercase
 // var should be camel case
 
-class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
+class MainActivity : AppCompatActivity() {
+    lateinit var editText: EditText
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = "Mortgage Calculator"
-        //var yearChoice: Spinner = findViewById(R.id.editYear)
-        //val adapter = ArrayAdapter.createFromResource(
-        //       this,
-         //       R.array.editYear,
-         //       android.R.layout.simple_spinner_item
-        //)
-       // adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-       // yearChoice.adapter = adapter
-       // yearChoice.onItemSelectedListener = this
-    }
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
+        val editAPR = findViewById<EditText>(R.id.editAPR)
+        val editEscrow = findViewById<EditText>(R.id.editEscrow)
+        val editLoan = findViewById<EditText>(R.id.editLoan)
+        val calculateButton = findViewById<Button>(R.id.calculateButton)
+        val resetButton = findViewById<Button>(R.id.resetButton)
 
-    override fun onNothingSelected(parent: AdapterView<*>?) {
-        TODO("Not yet implemented")
-    }
-    override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-        TODO("Not yet implemented")
+        calculateButton.setOnClickListener {
+            println("Clicked!")
+        }
+
+        resetButton.setOnClickListener {
+        }
     }
 }

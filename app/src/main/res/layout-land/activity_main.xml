@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:baselineAligned="false"
-        android:paddingBottom="30dp"
+        android:paddingBottom="20dp"
         android:text="@string/mortgage_calculator"
         android:textAllCaps="false"
         android:textColor="#000000"
@@ -139,10 +140,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="72dp"
         android:gravity="center"
         android:orientation="horizontal"
-        android:paddingTop="30dp">
+        android:paddingTop="10dp">
 
         <Button
             android:id="@+id/calculateButton"
