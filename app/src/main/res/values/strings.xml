@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mortgage Calculator</string>
+    <string-array name="editYear">
+        <item>15 Years</item>
+        <item>30 Years</item>
+        <item>40 Years</item>
+    </string-array>
+    <string name="calculateButton">Button</string>
+    <string name="calculate">Calculate</string>
+    <string name="apr">APR Percent:    </string>
+    <string name="escrow">Escrow Amount:</string>
+    <string name="loan">Loan Amount:   </string>
+    <string name="mortgage_calculator">Mortgage Calculator</string>
+    <string name="reset">Reset</string>
+</resources>
