@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         title = "Mortgage Calculator"
-        var yearChoice: Spinner = findViewById(R.id.editYear)
+        //var yearChoice: Spinner = findViewById(R.id.editYear)
         //val adapter = ArrayAdapter.createFromResource(
         //       this,
          //       R.array.editYear,
