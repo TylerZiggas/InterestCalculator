@@ -7,18 +7,18 @@
     android:background="#F5F5DC"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="edu.umsl.tyler.MainActivity">
 
     <TextView
         android:id="@+id/mortgageTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:baselineAligned="false"
-        android:paddingBottom="30dp"
+        android:paddingBottom="35dp"
         android:text="@string/mortgage_calculator"
         android:textAllCaps="false"
         android:textColor="#000000"
-        android:textSize="24sp" />
+        android:textSize="28sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -29,24 +29,26 @@
         android:textColor="#000000" />
 
     <RadioGroup
+        android:id="@+id/yearGroup"
+        android:checkedButton="@id/fifteenButton"
         android:layout_width="236dp"
         android:layout_height="91dp">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/fifteenButton"
             android:layout_width="match_parent"
             android:layout_height="26dp"
             android:checked="true"
-            android:text="@string/fifteenYear" />
+            android:text="@string/fifteenYears" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/thirtyButton"
             android:layout_width="match_parent"
             android:layout_height="26dp"
             android:text="@string/thirtyYears" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/fortyButton"
             android:layout_width="match_parent"
             android:layout_height="26dp"
             android:text="@string/fortyYears" />

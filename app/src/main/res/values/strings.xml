@@ -6,7 +6,7 @@
     <string name="percentSign">%</string>
     <string name="escrow">Escrow Amount: $</string>
     <string name="loan">Loan Amount: $</string>
-    <string name="fifteenYear">15 Years</string>
+    <string name="fifteenYears">15 Years</string>
     <string name="thirtyYears">30 Years</string>
     <string name="fortyYears">40 Years</string>
     <string name="defaultPercent">5.00</string>
@@ -14,4 +14,8 @@
     <string name="defaultLoan">100000</string>
     <string name="calculate">Calculate</string>
     <string name="reset">Reset</string>
+    <string name="applied_interest">Interest</string>
+    <string name="applied_escrow">Escrow</string>
+    <string name="applied_principal">Principal</string>
+    <string name="loan_left">Loan Left</string>
 </resources>

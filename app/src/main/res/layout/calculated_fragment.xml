@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calculatedRV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF46D6D"
+    tools:context=".ui.main.CalculatedFragment"
+    tools:listitem="@layout/amortization_list_item"
+    tools:itemCount="5">
+
+</androidx.recyclerview.widget.RecyclerView>
