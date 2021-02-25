@@ -18,4 +18,8 @@
     <string name="applied_escrow">Escrow</string>
     <string name="applied_principal">Principal</string>
     <string name="loan_left">Loan Left</string>
+    <string name="loan_left_textbox">Loan Left</string>
+    <string name="principal_textbox">Principal</string>
+    <string name="escrow_textbox">Escrow</string>
+    <string name="interest_textbox">Interest</string>
 </resources>

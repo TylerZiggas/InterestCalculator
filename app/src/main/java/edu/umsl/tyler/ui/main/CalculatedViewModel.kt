@@ -4,10 +4,8 @@ import androidx.lifecycle.ViewModel
 import edu.umsl.tyler.YearLoan
 import java.time.Year
 
-class CalculatedViewModel(yearLoan: YearLoan/*, loan: Int, escrow: Double, APR: Double*/) : ViewModel() {
+class CalculatedViewModel(yearLoan: YearLoan, monthlyLoanLeft: ArrayList<Double>, monthly: ArrayList<Double>, monthlyLoanLeft: ArrayList<Double>, monthlyLoanLeft: ArrayList<Double>) : ViewModel() {
 
-    //var APR: Double = APR
-    //var escrow: Double = escrow
-    //var loan: Int = loan
+
     var yearLoan: YearLoan = yearLoan
 }
